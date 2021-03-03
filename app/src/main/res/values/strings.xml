@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login With Firebase</string>
+    <string name="SC_logo">SC logo</string>
+    <string name="input_username">Enter your mail address</string>
+    <string name="input_password">Enter your password</string>
+    <string name="welcome">welcome</string>
+    <string name="create_acc">Create an account?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm your password</string>
+    <string name="login">login</string>
+</resources>
