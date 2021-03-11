@@ -8,4 +8,15 @@
     <string name="register">Register</string>
     <string name="confirm_password">Confirm your password</string>
     <string name="login">login</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="pitime">PiTime</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="log_in">Log in</string>
+    <string name="use_social_login">Log in with social networks</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="account">Account</string>
+    <string name="create">Create an</string>
+    <string name="use_social_networks_signup">Use social networks</string>
 </resources>

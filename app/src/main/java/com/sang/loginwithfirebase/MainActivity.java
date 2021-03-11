@@ -1,13 +1,13 @@
 package com.sang.loginwithfirebase;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        //Email Login
         TextInputEditText username = findViewById(R.id.username);
 
         username.addTextChangedListener(new TextWatcher() {
@@ -45,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        // Password login
         TextInputEditText password = findViewById(R.id.password);
 
         password.addTextChangedListener(new TextWatcher() {
@@ -69,17 +73,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-        AppCompatButton button = findViewById(R.id.login) ;
-        TextView textView = findViewById(R.id.create_acc);
-
-        textView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent gotoRegister = new Intent(MainActivity.this, RegisterAccount.class);
-                startActivity(gotoRegister);
-            }
-        });
+        // Login successful
+        Button button = findViewById(R.id.login);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -87,6 +82,18 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
                     Intent gotoHello = new Intent(MainActivity.this, Hello.class);
                     startActivity(gotoHello);
+            }
+        });
+
+        // Move to create an account
+
+        TextView textView = findViewById(R.id.create_account);
+
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoRegister = new Intent(MainActivity.this, RegisterAccount.class);
+                startActivity(gotoRegister);
             }
         });
 

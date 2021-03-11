@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -35,7 +36,7 @@ public class RegisterAccount extends AppCompatActivity {
         //Elements
         TextInputEditText r_username = findViewById(R.id.r_username);
         TextInputEditText r_password = findViewById(R.id.r_password);
-        AppCompatButton register = findViewById(R.id.register);
+        Button register = findViewById(R.id.register);
 
 
         //Progressing

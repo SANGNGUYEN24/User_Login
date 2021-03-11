@@ -8,4 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="SC_color">#03254c</color>
+    <color name="SC_color2">#1167b1</color>
+    <color name="SC_color3">#187bcd</color>
+    <color name="SC_color4">#2a9df4</color>
+    <color name="SC_color5">#d0efff</color>
+    <color name="blue">#4285F4</color>
+    <color name="red">#DB4437</color>
+    <color name="yellow">#F4B400</color>
+    <color name="green">#0F9D58</color>
+    <color name="facebook_color"> #3b5998</color>
+
 </resources>
