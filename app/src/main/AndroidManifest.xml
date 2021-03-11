@@ -11,17 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginWithFirebase">
-        <activity android:name=".SplashScreen"></activity>
-        <activity android:name=".Hello" />
-        <activity
-            android:name=".RegisterAccount"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity android:name=".Hello" />
+        <activity
+            android:name=".RegisterAccount"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity android:name=".MainActivity">
+
         </activity>
 
         <meta-data
