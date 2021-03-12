@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "25658539782",
+    "project_id": "sc-2021",
+    "storage_bucket": "sc-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25658539782:android:bf1fb9924ee5a656d8e887",
+        "android_client_info": {
+          "package_name": "com.sang.loginwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25658539782-j9avpk56s9dvo69rm5b26skeh1hn62g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Ljp3K2Wan5c-bdFaptDxEAZMJo0z8pU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25658539782-j9avpk56s9dvo69rm5b26skeh1hn62g5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
